@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-05T20:20:19 IST" name="Suite" finished-at="2022-09-05T20:25:37 IST" duration-ms="317546">
+    <groups>
+    </groups>
+    <test started-at="2022-09-05T20:20:19 IST" name="Test" finished-at="2022-09-05T20:25:37 IST" duration-ms="317546">
+      <class name="TestScript.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.LoginPageTest@564fabc8]" started-at="2022-09-05T20:21:13 IST" name="setup" finished-at="2022-09-05T20:21:22 IST" duration-ms="9244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCreateAccount()[pri:1, instance:TestScript.LoginPageTest@564fabc8]" started-at="2022-09-05T20:21:22 IST" name="verifyCreateAccount" finished-at="2022-09-05T20:21:27 IST" duration-ms="4624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAccount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.LoginPageTest@564fabc8]" started-at="2022-09-05T20:21:27 IST" name="tearDown" finished-at="2022-09-05T20:21:27 IST" duration-ms="464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCreateAccount status=SUCCESS method=LoginPageTest.verifyCreateAccount()[pri:1, instance:TestScript.LoginPageTest@564fabc8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.LoginPageTest@564fabc8]" started-at="2022-09-05T20:21:27 IST" name="setup" finished-at="2022-09-05T20:21:35 IST" duration-ms="7387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPage()[pri:2, instance:TestScript.LoginPageTest@564fabc8]" started-at="2022-09-05T20:21:35 IST" name="verifyLoginPage" finished-at="2022-09-05T20:21:39 IST" duration-ms="4697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.LoginPageTest@564fabc8]" started-at="2022-09-05T20:21:39 IST" name="tearDown" finished-at="2022-09-05T20:21:40 IST" duration-ms="527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPage status=SUCCESS method=LoginPageTest.verifyLoginPage()[pri:2, instance:TestScript.LoginPageTest@564fabc8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScript.LoginPageTest -->
+      <class name="TestScript.OrderSummaryPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.OrderSummaryPageTest@3febb011]" started-at="2022-09-05T20:24:43 IST" name="setup" finished-at="2022-09-05T20:24:50 IST" duration-ms="6771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyOrderSummaryPage()[pri:0, instance:TestScript.OrderSummaryPageTest@3febb011]" started-at="2022-09-05T20:24:50 IST" name="verifyOrderSummaryPage" finished-at="2022-09-05T20:25:36 IST" duration-ms="46010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderSummaryPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.OrderSummaryPageTest@3febb011]" started-at="2022-09-05T20:25:36 IST" name="tearDown" finished-at="2022-09-05T20:25:37 IST" duration-ms="484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOrderSummaryPage status=SUCCESS method=OrderSummaryPageTest.verifyOrderSummaryPage()[pri:0, instance:TestScript.OrderSummaryPageTest@3febb011] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScript.OrderSummaryPageTest -->
+      <class name="TestScript.SignInPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.SignInPageTest@223d2c72]" started-at="2022-09-05T20:22:50 IST" name="setup" finished-at="2022-09-05T20:22:57 IST" duration-ms="7150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySignInPageTest()[pri:0, instance:TestScript.SignInPageTest@223d2c72]" started-at="2022-09-05T20:22:57 IST" name="verifySignInPageTest" finished-at="2022-09-05T20:23:11 IST" duration-ms="14420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInPageTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.SignInPageTest@223d2c72]" started-at="2022-09-05T20:23:11 IST" name="tearDown" finished-at="2022-09-05T20:23:12 IST" duration-ms="468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySignInPageTest status=SUCCESS method=SignInPageTest.verifySignInPageTest()[pri:0, instance:TestScript.SignInPageTest@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScript.SignInPageTest -->
+      <class name="TestScript.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.HomePageTest@71809907]" started-at="2022-09-05T20:20:19 IST" name="setup" finished-at="2022-09-05T20:20:42 IST" duration-ms="22708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyClickOnSignBtn()[pri:1, instance:TestScript.HomePageTest@71809907]" started-at="2022-09-05T20:20:42 IST" name="verifyClickOnSignBtn" finished-at="2022-09-05T20:20:45 IST" duration-ms="3271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnSignBtn -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.HomePageTest@71809907]" started-at="2022-09-05T20:20:45 IST" name="tearDown" finished-at="2022-09-05T20:20:45 IST" duration-ms="480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOnSignBtn status=SUCCESS method=HomePageTest.verifyClickOnSignBtn()[pri:1, instance:TestScript.HomePageTest@71809907] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.HomePageTest@71809907]" started-at="2022-09-05T20:20:45 IST" name="setup" finished-at="2022-09-05T20:20:52 IST" duration-ms="6998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyClickOnTshirtMenu()[pri:2, instance:TestScript.HomePageTest@71809907]" started-at="2022-09-05T20:20:52 IST" name="verifyClickOnTshirtMenu" finished-at="2022-09-05T20:20:55 IST" duration-ms="2474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnTshirtMenu -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.HomePageTest@71809907]" started-at="2022-09-05T20:20:55 IST" name="tearDown" finished-at="2022-09-05T20:20:55 IST" duration-ms="526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOnTshirtMenu status=SUCCESS method=HomePageTest.verifyClickOnTshirtMenu()[pri:2, instance:TestScript.HomePageTest@71809907] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScript.HomePageTest -->
+      <class name="TestScript.PersonalInformationPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.PersonalInformationPageTest@36bc55de]" started-at="2022-09-05T20:20:55 IST" name="setup" finished-at="2022-09-05T20:21:03 IST" duration-ms="7109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPersonalInformationPage()[pri:0, instance:TestScript.PersonalInformationPageTest@36bc55de]" started-at="2022-09-05T20:21:03 IST" name="verifyPersonalInformationPage" finished-at="2022-09-05T20:21:12 IST" duration-ms="9702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPersonalInformationPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.PersonalInformationPageTest@36bc55de]" started-at="2022-09-05T20:21:12 IST" name="tearDown" finished-at="2022-09-05T20:21:13 IST" duration-ms="564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPersonalInformationPage status=SUCCESS method=PersonalInformationPageTest.verifyPersonalInformationPage()[pri:0, instance:TestScript.PersonalInformationPageTest@36bc55de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScript.PersonalInformationPageTest -->
+      <class name="TestScript.PaymentPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.PaymentPageTest@74fe5c40]" started-at="2022-09-05T20:24:10 IST" name="setup" finished-at="2022-09-05T20:24:17 IST" duration-ms="6885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifypaymentPage()[pri:0, instance:TestScript.PaymentPageTest@74fe5c40]" started-at="2022-09-05T20:24:17 IST" name="verifypaymentPage" finished-at="2022-09-05T20:24:43 IST" duration-ms="25713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypaymentPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.PaymentPageTest@74fe5c40]" started-at="2022-09-05T20:24:43 IST" name="tearDown" finished-at="2022-09-05T20:24:43 IST" duration-ms="446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifypaymentPage status=SUCCESS method=PaymentPageTest.verifypaymentPage()[pri:0, instance:TestScript.PaymentPageTest@74fe5c40] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScript.PaymentPageTest -->
+      <class name="TestScript.AddressPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.AddressPageTest@8f4ea7c]" started-at="2022-09-05T20:23:12 IST" name="setup" finished-at="2022-09-05T20:23:19 IST" duration-ms="7407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAddressPage()[pri:0, instance:TestScript.AddressPageTest@8f4ea7c]" started-at="2022-09-05T20:23:19 IST" name="verifyAddressPage" finished-at="2022-09-05T20:23:40 IST" duration-ms="20903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddressPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.AddressPageTest@8f4ea7c]" started-at="2022-09-05T20:23:40 IST" name="tearDown" finished-at="2022-09-05T20:23:40 IST" duration-ms="473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAddressPage status=SUCCESS method=AddressPageTest.verifyAddressPage()[pri:0, instance:TestScript.AddressPageTest@8f4ea7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScript.AddressPageTest -->
+      <class name="TestScript.ShippingCartSummaryPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.ShippingCartSummaryPageTest@36902638]" started-at="2022-09-05T20:22:28 IST" name="setup" finished-at="2022-09-05T20:22:36 IST" duration-ms="7670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyProceedToCheckOut()[pri:0, instance:TestScript.ShippingCartSummaryPageTest@36902638]" started-at="2022-09-05T20:22:36 IST" name="verifyProceedToCheckOut" finished-at="2022-09-05T20:22:49 IST" duration-ms="12926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProceedToCheckOut -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.ShippingCartSummaryPageTest@36902638]" started-at="2022-09-05T20:22:49 IST" name="tearDown" finished-at="2022-09-05T20:22:50 IST" duration-ms="467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProceedToCheckOut status=SUCCESS method=ShippingCartSummaryPageTest.verifyProceedToCheckOut()[pri:0, instance:TestScript.ShippingCartSummaryPageTest@36902638] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScript.ShippingCartSummaryPageTest -->
+      <class name="TestScript.CatalogPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.CatalogPageTest@1d2adfbe]" started-at="2022-09-05T20:21:40 IST" name="setup" finished-at="2022-09-05T20:21:47 IST" duration-ms="6813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyClickOnTshirt()[pri:1, instance:TestScript.CatalogPageTest@1d2adfbe]" started-at="2022-09-05T20:21:47 IST" name="verifyClickOnTshirt" finished-at="2022-09-05T20:21:53 IST" duration-ms="6459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnTshirt -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.CatalogPageTest@1d2adfbe]" started-at="2022-09-05T20:21:53 IST" name="tearDown" finished-at="2022-09-05T20:21:54 IST" duration-ms="692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOnTshirt status=SUCCESS method=CatalogPageTest.verifyClickOnTshirt()[pri:1, instance:TestScript.CatalogPageTest@1d2adfbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.CatalogPageTest@1d2adfbe]" started-at="2022-09-05T20:21:54 IST" name="setup" finished-at="2022-09-05T20:22:01 IST" duration-ms="7169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyClickOnAddToCartBtn()[pri:2, instance:TestScript.CatalogPageTest@1d2adfbe]" started-at="2022-09-05T20:22:01 IST" name="verifyClickOnAddToCartBtn" finished-at="2022-09-05T20:22:10 IST" duration-ms="9302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnAddToCartBtn -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.CatalogPageTest@1d2adfbe]" started-at="2022-09-05T20:22:10 IST" name="tearDown" finished-at="2022-09-05T20:22:11 IST" duration-ms="540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOnAddToCartBtn status=SUCCESS method=CatalogPageTest.verifyClickOnAddToCartBtn()[pri:2, instance:TestScript.CatalogPageTest@1d2adfbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.CatalogPageTest@1d2adfbe]" started-at="2022-09-05T20:22:11 IST" name="setup" finished-at="2022-09-05T20:22:18 IST" duration-ms="7064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyProceedToCheckOutBtn()[pri:3, instance:TestScript.CatalogPageTest@1d2adfbe]" started-at="2022-09-05T20:22:18 IST" name="verifyProceedToCheckOutBtn" finished-at="2022-09-05T20:22:28 IST" duration-ms="10008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProceedToCheckOutBtn -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.CatalogPageTest@1d2adfbe]" started-at="2022-09-05T20:22:28 IST" name="tearDown" finished-at="2022-09-05T20:22:28 IST" duration-ms="622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProceedToCheckOutBtn status=SUCCESS method=CatalogPageTest.verifyProceedToCheckOutBtn()[pri:3, instance:TestScript.CatalogPageTest@1d2adfbe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScript.CatalogPageTest -->
+      <class name="TestScript.ShippingPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestScript.ShippingPageTest@436813f3]" started-at="2022-09-05T20:23:40 IST" name="setup" finished-at="2022-09-05T20:23:47 IST" duration-ms="7065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyShippingPage()[pri:0, instance:TestScript.ShippingPageTest@436813f3]" started-at="2022-09-05T20:23:47 IST" name="verifyShippingPage" finished-at="2022-09-05T20:24:10 IST" duration-ms="22360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShippingPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestScript.ShippingPageTest@436813f3]" started-at="2022-09-05T20:24:10 IST" name="tearDown" finished-at="2022-09-05T20:24:10 IST" duration-ms="439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyShippingPage status=SUCCESS method=ShippingPageTest.verifyShippingPage()[pri:0, instance:TestScript.ShippingPageTest@436813f3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScript.ShippingPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

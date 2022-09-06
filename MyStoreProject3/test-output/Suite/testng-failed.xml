@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.TestNgListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestScript.ShippingPageTest">
+        <methods>
+          <include name="shippingPageChevron"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestScript.ShippingPageTest -->
+      <class name="TestScript.CatalogPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyClickOnAddToCartBtn"/>
+          <include name="verifyProceedToCheckOutBtn"/>
+        </methods>
+      </class> <!-- TestScript.CatalogPageTest -->
+      <class name="TestScript.AddressPageTest">
+        <methods>
+          <include name="verifyAddressPage"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestScript.AddressPageTest -->
+      <class name="TestScript.LoginPageTest">
+        <methods>
+          <include name="verifyLoginPage"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestScript.LoginPageTest -->
+      <class name="TestScript.ShippingCartSummaryPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyProceedToCheckOut"/>
+        </methods>
+      </class> <!-- TestScript.ShippingCartSummaryPageTest -->
+      <class name="TestScript.HomePageTest">
+        <methods>
+          <include name="verifyClickOnSignBtn"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyClickOnTshirtMenu"/>
+        </methods>
+      </class> <!-- TestScript.HomePageTest -->
+      <class name="TestScript.OrderSummaryPageTest">
+        <methods>
+          <include name="verifyOrderSummaryPage"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestScript.OrderSummaryPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

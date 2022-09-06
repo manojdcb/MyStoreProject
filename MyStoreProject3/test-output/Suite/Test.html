@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 05 20:20:19 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>317 seconds (317546 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestScript.HomePageTest.verifyClickOnSignBtn()'><b>verifyClickOnSignBtn</b><br>Test class: TestScript.HomePageTest</td>
+<td></td>
+<td>3</td>
+<td>TestScript.HomePageTest@71809907</td></tr>
+<tr>
+<td title='TestScript.CatalogPageTest.verifyClickOnTshirt()'><b>verifyClickOnTshirt</b><br>Test class: TestScript.CatalogPageTest</td>
+<td></td>
+<td>6</td>
+<td>TestScript.CatalogPageTest@1d2adfbe</td></tr>
+<tr>
+<td title='TestScript.OrderSummaryPageTest.verifyOrderSummaryPage()'><b>verifyOrderSummaryPage</b><br>Test class: TestScript.OrderSummaryPageTest</td>
+<td></td>
+<td>46</td>
+<td>TestScript.OrderSummaryPageTest@3febb011</td></tr>
+<tr>
+<td title='TestScript.LoginPageTest.verifyCreateAccount()'><b>verifyCreateAccount</b><br>Test class: TestScript.LoginPageTest</td>
+<td></td>
+<td>4</td>
+<td>TestScript.LoginPageTest@564fabc8</td></tr>
+<tr>
+<td title='TestScript.SignInPageTest.verifySignInPageTest()'><b>verifySignInPageTest</b><br>Test class: TestScript.SignInPageTest</td>
+<td></td>
+<td>14</td>
+<td>TestScript.SignInPageTest@223d2c72</td></tr>
+<tr>
+<td title='TestScript.AddressPageTest.verifyAddressPage()'><b>verifyAddressPage</b><br>Test class: TestScript.AddressPageTest</td>
+<td></td>
+<td>20</td>
+<td>TestScript.AddressPageTest@8f4ea7c</td></tr>
+<tr>
+<td title='TestScript.HomePageTest.verifyClickOnTshirtMenu()'><b>verifyClickOnTshirtMenu</b><br>Test class: TestScript.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>TestScript.HomePageTest@71809907</td></tr>
+<tr>
+<td title='TestScript.LoginPageTest.verifyLoginPage()'><b>verifyLoginPage</b><br>Test class: TestScript.LoginPageTest</td>
+<td></td>
+<td>4</td>
+<td>TestScript.LoginPageTest@564fabc8</td></tr>
+<tr>
+<td title='TestScript.CatalogPageTest.verifyProceedToCheckOutBtn()'><b>verifyProceedToCheckOutBtn</b><br>Test class: TestScript.CatalogPageTest</td>
+<td></td>
+<td>10</td>
+<td>TestScript.CatalogPageTest@1d2adfbe</td></tr>
+<tr>
+<td title='TestScript.ShippingCartSummaryPageTest.verifyProceedToCheckOut()'><b>verifyProceedToCheckOut</b><br>Test class: TestScript.ShippingCartSummaryPageTest</td>
+<td></td>
+<td>12</td>
+<td>TestScript.ShippingCartSummaryPageTest@36902638</td></tr>
+<tr>
+<td title='TestScript.ShippingPageTest.verifyShippingPage()'><b>verifyShippingPage</b><br>Test class: TestScript.ShippingPageTest</td>
+<td></td>
+<td>22</td>
+<td>TestScript.ShippingPageTest@436813f3</td></tr>
+<tr>
+<td title='TestScript.PaymentPageTest.verifypaymentPage()'><b>verifypaymentPage</b><br>Test class: TestScript.PaymentPageTest</td>
+<td></td>
+<td>25</td>
+<td>TestScript.PaymentPageTest@74fe5c40</td></tr>
+<tr>
+<td title='TestScript.CatalogPageTest.verifyClickOnAddToCartBtn()'><b>verifyClickOnAddToCartBtn</b><br>Test class: TestScript.CatalogPageTest</td>
+<td></td>
+<td>9</td>
+<td>TestScript.CatalogPageTest@1d2adfbe</td></tr>
+<tr>
+<td title='TestScript.PersonalInformationPageTest.verifyPersonalInformationPage()'><b>verifyPersonalInformationPage</b><br>Test class: TestScript.PersonalInformationPageTest</td>
+<td></td>
+<td>9</td>
+<td>TestScript.PersonalInformationPageTest@36bc55de</td></tr>
+</table><p>
+</body>
+</html>
